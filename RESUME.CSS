@@ -1,0 +1,207 @@
+.body{
+    margin:0%;
+    background: chocolate;
+    }
+.body-header{
+    background-size:cover;
+    background-position: center;
+    margin-top: 15px;
+    backdrop-filter: blur(13px);
+    margin-right: 0%;
+    height:68vh;
+    width: 100%;
+    opacity: 0.8;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background: url("https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+.horizontal-list{
+    list-style: none;
+    padding-top: 30px;
+    
+}
+.horizontal-list li{
+    display:inline-block ;
+    margin : 0px 8px 8px 0px;
+    text-align: center;    
+}
+.horizontal-list li a{
+    font-size: 30px;
+    padding-left: 20px;
+    text-align: center;
+    align-items: center;
+    color:#d40000;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.5s, border-bottom  0.4s;
+}
+
+.horizontal-list li a:hover{
+    color:white;
+    border-bottom: 4px solid red ;
+}
+.text-center{
+    text-align:center;
+}
+#name-social-container{
+    margin-left: 20vh;
+}
+#my-name{
+    padding-top:32px;
+    padding-right: 52px;
+    font-size:90px;
+    text-shadow: teal  1px solid ;
+    letter-spacing: 0.1 rem;
+    color:#0b443e;  
+    font-weight: 700;
+    align-items: center;
+    
+    background-repeat: no-repeat;
+    
+}
+#my-name h6{
+    font-size: 50px;
+    padding-top: 27px;
+    
+}
+.logo img {
+    width: 50px;
+    float: right;
+    padding-top: 90px;
+    margin-left: 20px;
+}
+
+#about{
+    height: auto;                                                                                                                                                   
+    width:20%;
+    padding-bottom: 20px;
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin:auto;
+    margin-top: -27vh;
+    position:relative;
+}
+#my-image img{
+    height: 130%;
+    width:130%;
+    border-radius: 50%;
+}
+#skills{
+    background:url("https://images.unsplash.com/photo-1557683316-973673baf926?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1129&q=80");
+    width: 100%;
+    height:1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+        p {
+            font-size: 50px;
+            color: white; 
+            padding-left: 10px;
+        }
+
+      
+        .container {
+            background-color: rgb(192, 192, 192);
+            width: 45%;
+            border-radius: 15px;
+            margin-left: 10px;
+        }
+      
+        .skill {
+            background-color: rgba(11, 90, 238, 0.753);
+            color: white;
+            padding: 1%;
+            text-align: right;
+            font-size: 20px;
+            border-radius: 15px;
+            border-color: blanchedalmond ;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.562);
+            
+        }
+      .sk h1{
+          padding-top: 50px;
+          padding-left:350px ;
+          font-size: 60px;
+          color: white;
+          text-decoration:underline;
+      }
+        .html {
+            width: 98%;
+        }
+      
+        .css {
+            width: 98%;
+        }
+        .JavaScript{
+            width: 80%;
+        }
+        .reactjs {
+            width: 50%;
+        }
+.timeline{
+    position: relative;
+    width:93.5%;
+    height: 700px;
+    padding-left: 100px;
+    text-align: center;
+    background:url("https://images.unsplash.com/photo-1569982175971-d92b01cf8694?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80");
+    background-color: indigo;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding-top: 15px;
+}
+.timeline-box h2{
+    text-align: center;
+    padding-top: 56px;
+    align-items: center;
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.timeline-box h4{
+    text-align: center;
+    color: midnightblue;
+    font-size: 15px;
+}
+.timeline-box{
+    position: relative;
+    width: 48%;
+    left: 40%;
+    background-color: cornflowerblue;
+    min-height: 200px;
+
+
+}
+.timeline-box:nth-child(2n){
+    left:13%
+}
+.project{
+    text-align: center;
+    font-size: 60px;
+    margin: 0%;
+    color: teal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer{
+text-align: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 99%;
+    color:white;
+    background-color:#b6b6b6;
+    padding-top: 5px;
+    height: 150px;
+
+}
+.footer h3{
+    display: inline-flex;
+    align-content: center;
+    padding-bottom: 50px;
+}

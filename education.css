@@ -1,0 +1,34 @@
+.body{
+    margin: 0%;
+   
+
+}
+.edu{
+    background: url("https://hovn35hhp33ylxhj3ezdyk6g-wpengine.netdna-ssl.com/wp-content/uploads/2020/07/CCA-Website-Resources-AS348291651-Web.jpeg");
+    background-size:contain ;
+    margin:0%;
+    position:fixed;
+    width:100%;
+}
+.edu h3{
+    font-size: 50px;
+    text-align: center;
+    color: #170798;
+    text-decoration: underline;
+    
+}
+.edu ul{
+    font-size: 30px;
+   
+    margin-left: 300px;
+    list-style: none;
+    
+}
+.edu h4{
+    color:#ea0909eb;
+
+}
+.edu p{
+    color: #0c3b52;
+    
+}
